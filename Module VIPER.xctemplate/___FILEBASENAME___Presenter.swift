@@ -43,8 +43,12 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
 
 extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___InteractionOutput {
     
-    func refresh___VARIABLE_productName:identifier___(with profiles: Profiles) {
-        self.profiles = profiles
+    var dummyOutput: String? {
+        return ""
+    }
+
+    func refresh___VARIABLE_productName:identifier___() {
+        
     }
     
     func showLoading___VARIABLE_productName:identifier___Error(_ error: ErrorType) {

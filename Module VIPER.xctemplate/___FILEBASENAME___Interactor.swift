@@ -17,7 +17,7 @@ protocol ___VARIABLE_productName:identifier___Interaction {
 
 // MARK:- Interaction -> Presenter Protocol
 protocol ___VARIABLE_productName:identifier___InteractionOutput: class {
-    var dummy : String? { get }
+    var dummyOutput : String? { get }
 
     func refresh___VARIABLE_productName:identifier___()
     func showLoading___VARIABLE_productName:identifier___Error(_ error: ErrorType)
